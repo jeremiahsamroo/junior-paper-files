@@ -1,0 +1,293 @@
+{
+  "Layout": {
+    "columns": "cmdset#stars",
+    "rows": "coleq#colname[]#result[_r_b _r_se] result[N]",
+    "tables": ""
+  },
+  "Styles": {
+    "StarsStyle": {
+      "results": [
+        {
+          "stripe": "_r_p",
+          "term-index": 0
+        }
+      ],
+      "rules": [
+        [
+          0.001,
+          "***"
+        ],
+        [
+          0.01,
+          "**"
+        ],
+        [
+          0.05,
+          "*"
+        ]
+      ],
+      "shownote": "true",
+      "type": "dimension"
+    },
+    "cell": {
+      "base": {
+        "ci-delimiter": " ",
+        "cri-delimiter": " ",
+        "nformat": "%9.0g"
+      },
+      "edits": [
+        [
+          "cell_type[item]",
+          {
+            "smcl": "result"
+          }
+        ],
+        [
+          "result[_r_b _r_se _r_lb _r_ub _r_ci _r_crlb _r_crub _r_cri]",
+          {
+            "nformat": "%9.0g"
+          }
+        ],
+        [
+          "result[_r_z _r_z_abs]",
+          {
+            "nformat": "%8.2f"
+          }
+        ],
+        [
+          "result[_r_p]",
+          {
+            "nformat": "%5.3f"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "margin-left": {
+              "width": "10pt"
+            }
+          }
+        ],
+        [
+          "cell_type[corner]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[column-header]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[column-header]#result[_r_ci _r_cri]",
+          {
+            "halign": "center"
+          }
+        ],
+        [
+          "cell_type[item]",
+          {
+            "halign": "right"
+          }
+        ],
+        [
+          "cell_type[row-header]",
+          {
+            "halign": "left"
+          }
+        ],
+        [
+          "border_block[corner]",
+          {
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[column-header]",
+          {
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[row-header]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-right": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "border_block[item]",
+          {
+            "border-bottom": {
+              "pattern": "single"
+            },
+            "border-top": {
+              "pattern": "single"
+            }
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ],
+        [
+          "",
+          {
+            "font-family": "Courier"
+          }
+        ]
+      ]
+    },
+    "export": {
+      "_etable": {
+        "showstars": "true",
+        "showstarsnote": "true"
+      },
+      "tex": {
+        "begintable": "true",
+        "centering": "true"
+      }
+    },
+    "header": {
+      "auto-levels": {
+        "result": [
+          {
+            "stripe": "aic",
+            "term-index": 0
+          },
+          {
+            "stripe": "bic",
+            "term-index": 1
+          }
+        ]
+      },
+      "base": {
+        "level": "label",
+        "title": "hide"
+      },
+      "dimensions": {
+        "cmdset": {
+          "level": "label"
+        },
+        "coleq": {
+          "level": "hide"
+        },
+        "stars": {
+          "level": "hide",
+          "title": "hide"
+        }
+      },
+      "row": {
+        "arrangement": "stack"
+      }
+    }
+  }
+}
